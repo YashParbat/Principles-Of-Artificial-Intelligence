@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 # Adjust path accordingly
-PATH = r" UCI HAR Dataset/"
+PATH = r"UCI HAR Dataset/"
 
 features = pd.read_csv(PATH + "features.txt", sep=r"\s+", header=None, names=["idx", "feature"])
 
